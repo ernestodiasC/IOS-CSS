@@ -1,0 +1,31 @@
+main{
+    margin: 0 auto;
+    width: 50rem;
+    border: 5px solid black;
+    padding: 1rem;
+    background:linear-gradient(to top, #404040, #000000);
+    border-radius: 30px;
+    color:#F4F4F4;
+    overflow: auto;
+}
+
+
+
+#catty_transparent{
+    float: left;
+    margin: .1rem;
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+
+h1{
+    font-size:2rem;
+    padding-top:0px;
+}
+p{
+    font-size:1.25rem;
+}
+
+.spoilers{
+    color:#FF00FF;
+    text-shadow: 2px 2px 2px #000000;
+}

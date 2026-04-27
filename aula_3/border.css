@@ -1,0 +1,18 @@
+#title{
+    border: 2px inset gray;
+}
+
+p.parag{
+    border-top: 4px solid green;
+    border-left: 4px dotted red;
+    border-right: 4px dashed blue;
+    border-bottom: 4px double black;
+}
+
+h1,p{
+    background-color: aqua;
+}
+
+main p{
+    font-size: 1.3em;
+}

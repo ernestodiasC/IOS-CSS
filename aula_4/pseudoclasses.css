@@ -1,0 +1,16 @@
+a:visited{
+    color:#FF0000;
+}
+a:link{
+    color:#00FF00;
+}
+a:active{
+    color:#FF00FF;
+}
+
+#contact:focus{
+    background-color: #00FF00;
+    color: #FF00FF;
+    font-weight:700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

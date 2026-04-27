@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'editundo'; 
+    src: url('../editundo.ttf') format('truetype');
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    padding:35px;
+}
+
+body{
+    background-image: url("./fullbg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color:#FFFFFF;
+    font-family: 'editundo', 'Courier New', Courier, monospace;
+}
+
+p{
+    padding: 15px;
+}
+
+img.isaac{
+    height: 300px;
+    filter: drop-shadow(5px 5px 5px #000000);
+    padding: 20px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+img.isaac:hover{
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+    transform: scale(1.05);
+}
+
+figure.isaac{
+    margin: 0 auto;
+    width: 500px;
+    height: 425px;
+    background-image: url("./bg.png");
+    background-position: 4px 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #00000090;
+}
+
+
+h1.logo{
+    text-align: center;
+}
+
+.char_caption{
+    font-size: 30px;
+    padding:10px;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-style: bold;
+    font-size:35px;
+}

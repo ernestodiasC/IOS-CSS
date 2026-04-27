@@ -1,0 +1,33 @@
+@font-face{
+    font-family: 'editundo'; 
+    src: url('../editundo.ttf') format('truetype');
+}
+body{
+    background: linear-gradient(to top,#160F06,#000000);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    color:#FFAB48;
+    text-shadow: 5px 5px 15px #FFAB4840;
+}
+p,ul{
+    font-size: 2.5em;
+    line-height: 110%;
+}
+h1{
+    font-size: 5em;
+}
+.editundo{
+    font-family: 'editundo',sans-serif;
+}
+.pixels20{
+    font-size: 20px;
+}
+.italichuge{
+    font-size: 1.75em;
+    font-style: italic;
+}
+.centered{
+    display: block;
+    text-align: center;
+}
