@@ -1,0 +1,16 @@
+.but{
+    margin: 0 auto;
+    width: 50rem;
+    padding: .5rem;
+    background: #1010CB;
+    border-radius: 9px;
+    color:#F4F4F4;
+    overflow: auto;
+    font-size:2rem;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #00000090;
+}
+.but:hover{
+    background: #999999;
+    color: #1010CB;
+}
